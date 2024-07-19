@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lara">
+    <meta name="copyright" content="Lara.inc">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logos/tentacion_puq.ico">
+    <title>Inicio de sesión</title>
+</head>
+<body class="bLogin">
+    <div class="login">
+        <a href="index.html"><img src="img/logos/tentacion_puq.ico" height="70px" class="loginLogo"></a>
+        <h1>Inicio de sesión</h1>
+        <form class="form-content" action="inicio_sesion_tentacion_puq.php" method="post">
+            <div class="username">
+                <input type="text" required name="nombre_usuario">
+                <label>Nombre de usuario</label>
+            </div>
+            <div class="password">
+                <input type="password" required name="contrasenia">
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar"><a href="remember_pass.html">¿No recuerda su contraseña?</a></div>
+            <input type="submit" value="Iniciar sesión">
+            <div class="registroLogin">
+                <p>¿Aún no se encuentra <a href="registro.html">registrado</a>?</p>
+            </div>
+        </form>
+    </div>
+</body>

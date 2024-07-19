@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lara">
+    <meta name="copyright" content="Lara.inc">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logos/tentacion_puq.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registro</title>
+</head>
+<body class="bodySignUp">
+    <div class="container">
+        <div class="form-content">
+            <h1 id="title">Registrarse</h1>
+            <form class="form-content" action="registro_tentacion_puq.php" method="post">
+                <div class="input-group">
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nombre y Apellido" name="nombres">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Correo electrónico" name="correos">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Contraseña" name="contraseniaa">
+                    </div>
+                    <p><a href="remember_pass.html">¿Contraseña olvidada?</a></p>
+                </div>
+                <div class="btn-field">
+                    <input id="signUp" type="submit" value="Registrarse" class="inputSignUp">
+                    <button id="signIn" type="button" class="disable"><a href="login.html">Iniciar sesión</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
